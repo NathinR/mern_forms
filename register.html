@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" href="form_icon.png">
+</head>
+<body>
+    <h2 align="center">Registration Form</h2> <br><br><hr><br><br>
+    <form method="post" enctype="multipart/form-data">
+        <table border="0" align="center" width="80%">
+            <tbody>
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" name="username" placeholder="Enter Your Name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Age:</label></td>
+                    <td><input type="number" name="age" placeholder="Enter your Age"></td>
+                </tr>
+                
+                <!-- <tr>
+                    <td><input type="file"></td>
+                </tr> -->
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email" name="email" placeholder="Enter Your email" required></td>
+                </tr>
+                <!-- <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr> -->
+                <tr><td><br><br><strong>Gender</strong></td></tr>
+                <tr>
+                    <td>Male</td>
+                    <td><input type="radio" name="gender" value="Male"></td>
+                </tr>
+                <tr>
+                    <td>Female</td>
+                    <td><input type="radio" name="gender" value="Female"></td>
+                </tr>
+                <tr>
+                    <td> <br><br><strong>SKILLS</strong></td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td><input type="checkbox" name="skills" value="HTML"></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td><input type="checkbox" name="skills" value="CSS"></td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td><input type="checkbox" name="skills" value="JavaScript"></td>
+                </tr>
+                <tr>
+                    <td><br><br><strong>Year</strong></td>
+                </tr>
+                <tr>
+                    <td>1 year</td>
+                    <td><input type="radio" name="year" value="1"></td>
+                </tr>
+                <tr>
+                    <td>2 year</td>
+                    <td><input type="radio" name="year" value="2"></td>
+                </tr>
+                <tr>
+                    <td>3 year</td>
+                    <td><input type="radio" name="year" value="3"></td>
+                </tr>
+                <tr>
+                    <td>4 year</td>
+                    <td><input type="radio" name="year" value="4"></td>
+                </tr>
+                <tr>
+                    <td><br><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </form>
+    
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="icon" href="form_icon.png">
+</head>
+<body>
+    <form method="get" enctype="multipart/form-data">
+        <label for="txt">name:</label>
+        <input type="text" username="txt" placeholder="Name"><br>
+        <input type="text" password="text" placeholder="Enter password"><br>
+        <input type="file">
+        <input type="submit">
+    </form>
+    <hr>
+    <br>
+    <form>
+        <input type="text" name="txtUsername" placeholder="Username:" required  value="Dinesh" disabled><br>
+        <input type="text" name="txtPassword" placeholder="Password:" maxlength="8"><br>
+        Subjects:<br>
+        <input type="checkbox" name="chkSubjects" value="HTML"> HTML<br>
+        <input type="checkbox" name="chkSubjects" value="CSS" checked disabled> CSS<br>
+        <input type="checkbox" name="chkSubjects" value="JavaScript"> JavaScript<br><br>
+
+        Gender:<br>
+        <input type="radio" name="rdGender" value="F" checked disabled> Female<br>
+        <input type="radio" name="rdGender" value="M"> Male<br>
+        <input type="radio" name="rdGender" value="O"> Other<br><br>
+
+        Subjects:<br>
+        <select name="slSubjects" multiple>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+        
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html> -->
